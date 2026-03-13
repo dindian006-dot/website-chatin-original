@@ -8,6 +8,7 @@ import { Navbar } from "./components/Navbar";
 import { Footer } from "./components/Footer";
 import { Home } from "./pages/Home";
 import { FeaturesPage } from "./pages/FeaturesPage";
+import { PricingPage } from "./pages/PricingPage";
 import { PlaceholderPage } from "./pages/PlaceholderPage";
 
 export default function App() {
@@ -19,8 +20,8 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/features" element={<FeaturesPage />} />
           <Route path="/updates" element={<PlaceholderPage title="Updates" />} />
-          <Route path="/pricing" element={<PlaceholderPage title="Pricing" />} />
-          <Route path="/blog" element={<PlaceholderPage title="Blog" />} />
+          <Route path="/pricing" element={<PricingPage />} />
+          <Route path="/about" element={<PlaceholderPage title="About Us" />} />
           <Route path="/download-app" element={<PlaceholderPage title="Download App" />} />
         </Routes>
         <Footer />

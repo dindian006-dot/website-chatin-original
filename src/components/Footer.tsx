@@ -99,7 +99,7 @@ export function Footer() {
             <Link to="/features" className="text-sm text-gray-500 hover:text-black transition-colors">Features</Link>
             <Link to="/updates" className="text-sm text-gray-500 hover:text-black transition-colors">Updates</Link>
             <Link to="/pricing" className="text-sm text-gray-500 hover:text-black transition-colors">Pricing</Link>
-            <Link to="/blog" className="text-sm text-gray-500 hover:text-black transition-colors">Blog</Link>
+            <Link to="/about" className="text-sm text-gray-500 hover:text-black transition-colors">About Us</Link>
           </div>
         </div>
       </div>
